@@ -1,0 +1,7 @@
+README.rst
+setup.py
+pyqueryinterafce/__init__.py
+pyqueryinterafce.egg-info/PKG-INFO
+pyqueryinterafce.egg-info/SOURCES.txt
+pyqueryinterafce.egg-info/dependency_links.txt
+pyqueryinterafce.egg-info/top_level.txt
