@@ -76,7 +76,7 @@ class InsertValues(InsertMixin):
     ) -> None:
         if len(insert.fields) != 1 + len(values):
             raise ValueError(
-                f"inser value length not match. \n\t{insert.fields=}\n\tvalues={(value,*values)}"
+                f"inser value length not match. \n\tfields={insert.fields}\n\tvalues={(value,*values)}"
             )
         insert.values.append(list(map(force_expression, [value, *values])))
         self._insert = insert
