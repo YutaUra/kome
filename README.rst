@@ -1,6 +1,10 @@
 kome - Python Query Builder
 =============================
 
+.. image:: https://api.codacy.com/project/badge/Grade/0a4eb269399b4a869a1a4120a6da4062
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/manual/YutaUra/kome?utm_source=github.com&utm_medium=referral&utm_content=YutaUra/kome&utm_campaign=Badge_Grade_Dashboard
+
 .. _intro_start:
 
 |BuildStatus|  |CoverageStatus|  |Codacy|  |Docs|  |PyPi|  |License|
