@@ -1,10 +1,6 @@
 kome - Python Query Builder
 =============================
 
-.. image:: https://api.codacy.com/project/badge/Grade/0a4eb269399b4a869a1a4120a6da4062
-   :alt: Codacy Badge
-   :target: https://app.codacy.com/manual/YutaUra/kome?utm_source=github.com&utm_medium=referral&utm_content=YutaUra/kome&utm_campaign=Badge_Grade_Dashboard
-
 .. _intro_start:
 
 |BuildStatus|  |CoverageStatus|  |Codacy|  |Docs|  |PyPi|  |License|
@@ -1119,8 +1115,8 @@ Crafted with ♥ in YutaUra.
    :target: https://github.com/YutaUra/kome/actions
 .. |CoverageStatus| image:: https://coveralls.io/repos/YutaUra/kome/badge.svg?branch=master
    :target: https://coveralls.io/github/YutaUra/kome?branch=master
-.. |Codacy| image:: https://api.codacy.com/project/badge/Grade/6d7e44e5628b4839a23da0bd82eaafcf
-   :target: https://www.codacy.com/app/twheys/pypika
+.. |Codacy| image:: https://api.codacy.com/project/badge/Grade/0a4eb269399b4a869a1a4120a6da4062
+   :target: https://app.codacy.com/manual/YutaUra/kome?utm_source=github.com&utm_medium=referral&utm_content=YutaUra/kome&utm_campaign=Badge_Grade_Dashboard
 .. |Docs| image:: https://readthedocs.org/projects/pypika/badge/?version=latest
    :target: http://pypika.readthedocs.io/en/latest/
 .. |PyPi| image:: https://img.shields.io/pypi/v/kome.svg?style=flat
