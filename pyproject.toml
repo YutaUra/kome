@@ -1,23 +1,22 @@
 [tool.poetry]
+authors = ["YutaUra <yuuta3594@outlook.jp>"]
+description = ""
 name = "kome"
 version = "0.1.0"
-description = ""
-authors = ["YutaUra <yuuta3594@outlook.jp>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 black = {version = "^20.8b1", allow-prereleases = true}
+coveralls = "^2.1.2"
+pytest = "^5.2"
 pytest-cov = "^2.10.1"
 recommonmark = "^0.6.0"
 sphinx = "^3.2.1"
 sphinx-autobuild = "^2020.9.1"
 sphinx_rtd_theme = "^0.5.0"
-coveralls = "^2.1.2"
-tox = "^3.20.0"
 
 [build-system]
-requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]

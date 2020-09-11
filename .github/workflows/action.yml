@@ -28,26 +28,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.dev.txt
       - name: Run test suite
-        run: tox
+        run: coverage run --source=kome -m pytest tests/ && coverage report
 
       - name: upload coverage
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-      - name: Coveralls
-        # Official Coveralls GitHub action does not work with Python coverage files!
-        # https://github.com/coverallsapp/github-action/issues/30
-        uses: AndreMiras/coveralls-python-action@develop
-        with:
-          parallel: true
-          debug: true
-
-  coveralls_finish:
-    needs: test
-    runs-on: ubuntu-latest
-    steps:
-      - name: Coveralls Finished
-        uses: AndreMiras/coveralls-python-action@develop
-        with:
-          parallel-finished: true
-          debug: true
