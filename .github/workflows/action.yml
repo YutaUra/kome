@@ -30,10 +30,6 @@ jobs:
       - name: Run test suite
         run: pytest --cov=kome --cov-branch
 
-      # Uncomment when Black is setup for PyPika
-      - name: Run Black code formatter check
-        run: black --check .
-
       - name: Coveralls
         # Official Coveralls GitHub action does not work with Python coverage files!
         # https://github.com/coverallsapp/github-action/issues/30
