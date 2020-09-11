@@ -127,6 +127,30 @@ toml = ["toml"]
 
 [[package]]
 category = "dev"
+description = "Show coverage stats online via coveralls.io"
+name = "coveralls"
+optional = false
+python-versions = ">= 3.5"
+version = "2.1.2"
+
+[package.dependencies]
+coverage = ">=4.1,<6.0"
+docopt = ">=0.6.1"
+requests = ">=1.0.0"
+
+[package.extras]
+yaml = ["PyYAML (>=3.10)"]
+
+[[package]]
+category = "dev"
+description = "Pythonic argument parser, that will make you smile"
+name = "docopt"
+optional = false
+python-versions = "*"
+version = "0.6.2"
+
+[[package]]
+category = "dev"
 description = "Docutils -- Python Documentation Utilities"
 name = "docutils"
 optional = false
@@ -544,7 +568,7 @@ python-versions = "*"
 version = "0.2.5"
 
 [metadata]
-content-hash = "6a6614db99fb6b62c6d769f3c0dec03edbdac7c3afc1250509a8d576009334fe"
+content-hash = "52aa574fd2ff50643295a43c5f051463b62e1ea49d42e68c0190168852de1fdd"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -628,6 +652,13 @@ coverage = [
     {file = "coverage-5.2.1-cp39-cp39-win32.whl", hash = "sha256:9e536783a5acee79a9b308be97d3952b662748c4037b6a24cbb339dc7ed8eb89"},
     {file = "coverage-5.2.1-cp39-cp39-win_amd64.whl", hash = "sha256:b8f58c7db64d8f27078cbf2a4391af6aa4e4767cc08b37555c4ae064b8558d9b"},
     {file = "coverage-5.2.1.tar.gz", hash = "sha256:a34cb28e0747ea15e82d13e14de606747e9e484fb28d63c999483f5d5188e89b"},
+]
+coveralls = [
+    {file = "coveralls-2.1.2-py2.py3-none-any.whl", hash = "sha256:b3b60c17b03a0dee61952a91aed6f131e0b2ac8bd5da909389c53137811409e1"},
+    {file = "coveralls-2.1.2.tar.gz", hash = "sha256:4430b862baabb3cf090d36d84d331966615e4288d8a8c5957e0fd456d0dd8bd6"},
+]
+docopt = [
+    {file = "docopt-0.6.2.tar.gz", hash = "sha256:49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"},
 ]
 docutils = [
     {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},
