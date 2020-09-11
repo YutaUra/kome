@@ -30,7 +30,7 @@ jobs:
       - name: Run test suite
         run: pytest --cov=kome --cov-branch
 
-        - name: upload coverage
+      - name: upload coverage
         uses: codecov/codecov-action@v1
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
