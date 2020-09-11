@@ -1,20 +1,23 @@
-.. kome documentation master file, created by
-   sphinx-quickstart on Sat Sep 12 04:08:57 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+kome - Python Query Builder
+=============================
 
-Welcome to kome's documentation!
-================================
+.. _intro_start:
 
-.. .. toctree::
-..    :maxdepth: 2
-..    :caption: Contents:
+|BuildStatus|  |CoverageStatus|  |Codacy|  |Docs|  |PyPi|  |License|
 
+.. _available_badges_start:
 
+.. |BuildStatus| image:: https://github.com/YutaUra/kome/workflows/Unit%20Tests/badge.svg
+   :target: https://github.com/YutaUra/kome/actions
+.. |CoverageStatus| image:: https://coveralls.io/repos/YutaUra/kome/badge.svg?branch=master
+   :target: https://coveralls.io/github/YutaUra/kome?branch=master
+.. |Codacy| image:: https://api.codacy.com/project/badge/Grade/0a4eb269399b4a869a1a4120a6da4062
+   :target: https://app.codacy.com/manual/YutaUra/kome?utm_source=github.com&utm_medium=referral&utm_content=YutaUra/kome&utm_campaign=Badge_Grade_Dashboard
+.. |Docs| image:: https://readthedocs.org/projects/pypika/badge/?version=latest
+   :target: http://pypika.readthedocs.io/en/latest/
+.. |PyPi| image:: https://img.shields.io/pypi/v/kome.svg?style=flat
+   :target: https://pypi.python.org/pypi/kome
+.. |License| image:: https://img.shields.io/hexpm/l/plug.svg?maxAge=2592000
+   :target: http://www.apache.org/licenses/LICENSE-2.0
 
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
+.. _available_badges_end:
